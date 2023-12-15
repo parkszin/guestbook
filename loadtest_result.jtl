@@ -342,3 +342,343 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1702620031836,5021,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1884,121,2,2,http://172.31.0.110:38080/,5021,0,1
 1702620031858,6016,TC_방명록메인,200,,TG_방명록메인 1-1,,true,,1884,121,1,1,null,0,0,0
 1702620032859,5015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1884,121,1,1,http://172.31.0.110:38080/,5015,0,1
+1702623089647,27,TC_방명록메인,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Number of samples in transaction : 1, number of failing samples : 1",TG_방명록메인 1-5,,false,,2714,0,1,1,null,0,1110,27
+1702623090755,27,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.31.0.110:38080 [/172.31.0.110] failed: Connection refused (Connection refused),TG_방명록메인 1-5,text,false,,2714,0,1,1,http://172.31.0.110:38080/,0,0,27
+1702623090793,3,TC_방명록메인,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Number of samples in transaction : 1, number of failing samples : 1",TG_방명록메인 1-5,,false,,2714,0,2,2,null,0,1012,3
+1702623091802,3,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.31.0.110:38080 [/172.31.0.110] failed: Connection refused (Connection refused),TG_방명록메인 1-5,text,false,,2714,0,2,2,http://172.31.0.110:38080/,0,0,3
+1702623091645,4,TC_방명록메인,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Number of samples in transaction : 1, number of failing samples : 1",TG_방명록메인 1-4,,false,,2714,0,2,2,null,0,1008,4
+1702623092651,4,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.31.0.110:38080 [/172.31.0.110] failed: Connection refused (Connection refused),TG_방명록메인 1-4,text,false,,2714,0,2,2,http://172.31.0.110:38080/,0,0,4
+1702623091815,2,TC_방명록메인,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Number of samples in transaction : 1, number of failing samples : 1",TG_방명록메인 1-5,,false,,2714,0,2,2,null,0,1006,2
+1702623092820,2,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.31.0.110:38080 [/172.31.0.110] failed: Connection refused (Connection refused),TG_방명록메인 1-5,text,false,,2714,0,2,2,http://172.31.0.110:38080/,0,0,2
+1702623092660,2,TC_방명록메인,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Number of samples in transaction : 1, number of failing samples : 1",TG_방명록메인 1-4,,false,,2714,0,3,3,null,0,1002,2
+1702623093661,2,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.31.0.110:38080 [/172.31.0.110] failed: Connection refused (Connection refused),TG_방명록메인 1-4,text,false,,2714,0,3,3,http://172.31.0.110:38080/,0,0,2
+1702623092824,3943,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1002,1
+1702623093825,3943,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3932,0,1
+1702623093664,3103,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1003,1
+1702623094665,3103,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3092,0,1
+1702623093645,5060,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1003,1
+1702623094647,5060,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5057,0,1
+1702623097770,2041,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623098771,2041,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2041,0,1
+1702623095644,5025,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1002,1
+1702623096646,5025,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5024,0,1
+1702623097769,3048,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,2
+1702623098770,3048,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3048,0,2
+1702623097644,5027,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1003,1
+1702623098646,5027,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5027,0,1
+1702623099708,4028,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623100709,4028,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4028,0,1
+1702623100813,3024,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1002,2
+1702623101814,3024,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3024,0,2
+1702623103675,1024,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623104676,1024,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1024,0,1
+1702623101819,3031,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623102821,3031,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3020,0,1
+1702623101671,5033,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623102672,5033,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5033,0,1
+1702623105701,2023,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623106702,2023,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2023,0,1
+1702623107706,1019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623108707,1019,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1019,0,1
+1702623104840,4025,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623105841,4025,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4025,0,1
+1702623105852,3015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623106853,3015,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3015,0,1
+1702623104738,5018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623105739,5018,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5018,0,1
+1702623109727,1017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623110728,1017,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1017,0,1
+1702623108725,3026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,2
+1702623109726,3026,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3026,0,2
+1702623111746,1029,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,2
+1702623112745,1029,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1028,0,2
+1702623110757,2022,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623111758,2022,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2021,0,1
+1702623109866,3029,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,2
+1702623110867,3029,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3029,0,2
+1702623109869,3027,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623110869,3027,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3027,0,1
+1702623112751,2038,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623113752,2038,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2038,0,1
+1702623113780,2039,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,1
+1702623114780,2039,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2039,0,1
+1702623113895,2035,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623114896,2035,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2035,0,1
+1702623113774,3037,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623114775,3037,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3037,0,1
+1702623113896,5034,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623114896,5034,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5033,0,1
+1702623117812,2020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623118813,2020,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2020,0,1
+1702623115791,5016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623116792,5016,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5016,0,1
+1702623116932,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623117932,4018,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,1
+1702623116820,5017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,1
+1702623117820,5017,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5017,0,1
+1702623119930,2019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623120931,2019,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2019,0,1
+1702623121809,1020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623122810,1020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1020,0,1
+1702623121950,1018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623122951,1018,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1018,0,1
+1702623120833,3018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623121834,3018,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3018,0,1
+1702623123970,1022,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,2
+1702623124970,1022,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1022,0,2
+1702623123831,2032,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623124832,2032,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2032,0,1
+1702623124852,1021,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623125853,1021,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1021,0,1
+1702623122950,4026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623123951,4026,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4026,0,1
+1702623122838,5017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,2
+1702623123838,5017,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5016,0,2
+1702623126874,2026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1002,1
+1702623127875,2026,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2026,0,1
+1702623127978,1029,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,12
+1702623128978,1029,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1029,0,12
+1702623126864,3026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623127865,3026,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3026,0,1
+1702623128855,2018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1002,1
+1702623129856,2018,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2018,0,1
+1702623129902,1018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,2
+1702623130902,1018,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1018,0,2
+1702623125992,5029,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623126993,5029,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5029,0,1
+1702623130008,2019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,3
+1702623131009,2019,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2019,0,3
+1702623132023,2018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,2
+1702623133023,2018,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2018,0,2
+1702623130891,4017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623131892,4017,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4017,0,1
+1702623133029,2024,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623134030,2024,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2024,0,1
+1702623131875,4019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,0
+1702623132876,4019,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4019,0,0
+1702623131920,4014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623132921,4014,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4014,0,1
+1702623136055,1017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623137055,1017,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1017,0,1
+1702623135041,4023,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623136042,4023,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4023,0,1
+1702623135909,5023,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623136910,5023,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5023,0,1
+1702623136935,4014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623137937,4014,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4014,0,1
+1702623136895,5015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623137897,5015,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5015,0,1
+1702623140066,2020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623141067,2020,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2020,0,1
+1702623138073,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623139074,4018,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,1
+1702623141934,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623142935,2016,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623143087,2027,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623144088,2027,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2027,0,1
+1702623141951,4016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623142952,4016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4016,0,1
+1702623142913,4024,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,4
+1702623143913,4024,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4024,0,4
+1702623143092,5018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623144093,5018,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5018,0,1
+1702623147937,1015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1002,1
+1702623148938,1015,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1015,0,1
+1702623144951,5020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623145952,5020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5020,0,1
+1702623146968,3015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1002,1
+1702623147969,3015,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3015,0,1
+1702623149112,2018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623150112,2018,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2018,0,1
+1702623146115,5016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623147116,5016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5016,0,1
+1702623149954,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,2
+1702623150954,2016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,2
+1702623150985,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,1
+1702623151985,3016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623152132,2030,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623153131,2030,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2030,0,1
+1702623150972,4015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623151973,4015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4015,0,1
+1702623152130,4038,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623153130,4038,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4038,0,1
+1702623155001,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623156002,2016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623152970,5017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623153970,5017,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5017,0,1
+1702623155988,2024,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,2
+1702623156988,2024,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2024,0,2
+1702623155162,4016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623156162,4016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4016,0,1
+1702623157168,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623158169,2016,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623158988,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,1
+1702623159988,1016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623159012,2015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623160013,2015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2015,0,1
+1702623161004,2021,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1002,1
+1702623162005,2021,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2021,0,1
+1702623158018,5025,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623159019,5025,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5025,0,1
+1702623160179,3028,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623161179,3028,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3028,0,1
+1702623160186,4026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623161186,4026,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4026,0,1
+1702623164027,2019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,1
+1702623165027,2019,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2019,0,1
+1702623162029,5022,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,1
+1702623163029,5022,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5022,0,1
+1702623164208,3017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623165208,3017,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3017,0,1
+1702623164044,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623165045,4018,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,1
+1702623167046,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623168047,2016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623169064,1019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,1
+1702623170064,1019,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1019,0,1
+1702623165213,5017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623166213,5017,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5017,0,1
+1702623168225,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623169226,2016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623168051,3021,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623169052,3021,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3021,0,1
+1702623171083,1014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1002,1
+1702623172084,1014,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1014,0,1
+1702623171242,1015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623172243,1015,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1015,0,1
+1702623170064,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623171064,4018,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,1
+1702623172074,2015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,2
+1702623173075,2015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2015,0,2
+1702623171230,4022,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623172231,4022,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4022,0,1
+1702623173259,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623174260,2016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623175091,2027,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,1
+1702623176091,2027,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2027,0,1
+1702623173100,4020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,1
+1702623174100,4020,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4020,0,1
+1702623176276,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623177277,3016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623175084,5028,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,2
+1702623176084,5028,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5027,0,2
+1702623178121,2028,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,1
+1702623179121,2028,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2028,0,1
+1702623176254,4016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,0
+1702623177255,4016,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4016,0,0
+1702623178118,3031,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623179119,3031,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3030,0,1
+1702623181112,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,0
+1702623182113,1016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,0
+1702623181149,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623182150,1016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623183165,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623184166,1016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623181271,3015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623182272,3015,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3015,0,1
+1702623180293,4017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623181294,4017,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4017,0,1
+1702623183128,2018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623184129,2018,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2018,0,1
+1702623185310,1014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623186311,1014,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1014,0,1
+1702623182151,5020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,2
+1702623183150,5020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5020,0,2
+1702623186148,2019,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623187148,2019,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2019,0,1
+1702623185183,3017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,1
+1702623186183,3017,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3017,0,1
+1702623188170,1015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623189171,1015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1015,0,1
+1702623185286,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623186287,4018,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,1
+1702623187325,3015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623188326,3015,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3015,0,1
+1702623190186,1020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623191187,1020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1020,0,1
+1702623189168,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623190168,3016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623189200,5018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623190201,5018,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5018,0,1
+1702623192208,2032,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,1
+1702623193208,2032,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2032,0,1
+1702623190306,4016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,2
+1702623191306,4016,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4016,0,2
+1702623191341,4018,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,4
+1702623192342,4018,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4018,0,4
+1702623193185,4020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623194186,4020,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4020,0,1
+1702623195219,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1002,1
+1702623196220,3016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623195323,3014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1000,1
+1702623196323,3014,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3014,0,1
+1702623196360,2017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623197361,2017,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2017,0,1
+1702623195240,4020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,1
+1702623196241,4020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4020,0,1
+1702623199337,1026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623200338,1026,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1026,0,1
+1702623198206,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623199207,3016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623199237,2017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1000,3
+1702623200237,2017,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2017,0,3
+1702623201364,1015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623202365,1015,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1015,0,1
+1702623202254,1021,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,2
+1702623203256,1021,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1021,0,2
+1702623199378,4014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1002,1
+1702623200379,4014,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4014,0,1
+1702623202223,3016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623203225,3016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3016,0,1
+1702623200261,5026,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,3
+1702623201262,5026,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5026,0,3
+1702623203381,2027,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,0
+1702623204382,2027,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2027,0,0
+1702623206289,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1002,1
+1702623207290,1016,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623204395,4015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623205395,4015,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4015,0,1
+1702623204277,5017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,0
+1702623205278,5017,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5017,0,0
+1702623206409,4016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623207410,4016,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4016,0,1
+1702623206242,5015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1000,1
+1702623207242,5015,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5015,0,1
+1702623210295,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623211296,1016,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623209411,2016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1000,1
+1702623210411,2016,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2016,0,1
+1702623208307,4015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,1
+1702623209307,4015,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4015,0,1
+1702623212427,1014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623213427,1014,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1014,0,1
+1702623213322,1016,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1000,1
+1702623214322,1016,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1016,0,1
+1702623212257,3015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,5,5,null,0,1001,1
+1702623213257,3015,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3015,0,1
+1702623212312,4028,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,5,5,null,0,1001,1
+1702623213312,4028,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,5,5,http://172.31.0.110:38080/,4027,0,1
+1702623215338,1014,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,5,5,null,0,1001,0
+1702623216339,1014,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,5,5,http://172.31.0.110:38080/,1014,0,0
+1702623211426,5020,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,1001,1
+1702623212427,5020,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,5020,0,1
+1702623214441,3017,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-4,,true,,1869,121,5,5,null,0,1001,1
+1702623215442,3017,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,5,5,http://172.31.0.110:38080/,3017,0,1
+1702623217447,3017,TC_방명록메인,200,,TG_방명록메인 1-5,,true,,1869,121,5,5,null,0,0,0
+1702623218447,2017,HTTP Request,200,,TG_방명록메인 1-5,text,true,,1869,121,5,5,http://172.31.0.110:38080/,2017,0,1
+1702623216272,5015,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-3,,true,,1869,121,4,4,null,0,1001,1
+1702623217273,5015,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,4,4,http://172.31.0.110:38080/,5015,0,1
+1702623217340,4042,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,4,4,null,0,1001,9
+1702623218341,4042,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,4,4,http://172.31.0.110:38080/,4042,0,9
+1702623217353,5030,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-1,,true,,1869,121,4,4,null,0,1001,0
+1702623218354,5030,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,4,4,http://172.31.0.110:38080/,5030,0,0
+1702623218459,5018,TC_방명록메인,200,,TG_방명록메인 1-4,,true,,1869,121,4,4,null,0,0,0
+1702623219460,4017,HTTP Request,200,,TG_방명록메인 1-4,text,true,,1869,121,4,4,http://172.31.0.110:38080/,4017,0,2
+1702623222383,1013,TC_방명록메인,200,"Number of samples in transaction : 1, number of failing samples : 0",TG_방명록메인 1-2,,true,,1869,121,3,3,null,0,1002,1
+1702623223384,1013,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,3,3,http://172.31.0.110:38080/,1013,0,1
+1702623222289,5016,TC_방명록메인,200,,TG_방명록메인 1-3,,true,,1869,121,3,3,null,0,0,0
+1702623223289,4016,HTTP Request,200,,TG_방명록메인 1-3,text,true,,1869,121,3,3,http://172.31.0.110:38080/,4016,0,1
+1702623224398,4026,TC_방명록메인,200,,TG_방명록메인 1-2,,true,,1869,121,2,2,null,0,0,0
+1702623225398,3026,HTTP Request,200,,TG_방명록메인 1-2,text,true,,1869,121,2,2,http://172.31.0.110:38080/,3026,0,1
+1702623223385,6020,TC_방명록메인,200,,TG_방명록메인 1-1,,true,,1869,121,1,1,null,0,0,0
+1702623224385,5020,HTTP Request,200,,TG_방명록메인 1-1,text,true,,1869,121,1,1,http://172.31.0.110:38080/,5020,0,4
